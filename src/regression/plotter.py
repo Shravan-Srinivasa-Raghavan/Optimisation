@@ -34,7 +34,7 @@ def plot_training_loss(training_loss_values):
 
 # Function to save the remaining output to a text file
 def save_remaining_output(after_separator):
-    with open('out.txt', 'w') as outfile:
+    with open('./regression/out.txt', 'w') as outfile:
         outfile.write(after_separator)
 
 # Main function
